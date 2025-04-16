@@ -24,7 +24,7 @@ It can:
 
 ## 🧭 Workflow Overview
 
-SAGAI is organized into four fully independent Python modules:
+SAGAI is organized into four Python modules:
 
 | Module | Function |
 |--------|----------|
@@ -33,7 +33,7 @@ SAGAI is organized into four fully independent Python modules:
 | **Module 3** | Use a lightweight LLaVA model to analyze the images via prompt |
 | **Module 4** | Aggregate and map the scores at both point and street levels |
 
-🖼️ ![Workflow Diagram](A_flowchart-style_digital_illustration_diagram_tit.png)
+![SAGAI Diagram](https://github.com/perezjoan/SAGAI/raw/main/images/sagai%20diagram.png)
 
 ---
 
@@ -107,7 +107,7 @@ If you build upon this codebase, please retain the included [NOTICE](NOTICE) fil
 
 ## ✨ Acknowledgments
 
-Developed as part of the EMC2 project under the **Driving Urban Transition Partnership**, co-funded by ANR (France), FFG (Austria), MUR (Italy), and Vinnova (Sweden).
+This project was supported in part by the **EMC2 project** under the **Driving Urban Transition Partnership**, co-funded by **ANR (France)**, **FFG (Austria)**, **MUR (Italy)**, and **Vinnova (Sweden)**. SAGAI is designed as an open and extensible tool to support future research initiatives and collaborations in urban analytics and AI-based spatial analysis.
 
 ---
 

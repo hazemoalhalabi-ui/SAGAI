@@ -91,9 +91,7 @@ If you use SAGAI in your research, please cite:
 
 ---
 
-## 🪪 License
-
-## License and Attribution
+## 🪪 License and Attribution
 
 SAGAI is released under the [Apache License 2.0](LICENSE). This allows for use, modification, and redistribution in academic, commercial, and open-source contexts.
 

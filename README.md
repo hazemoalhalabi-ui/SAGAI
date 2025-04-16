@@ -93,7 +93,17 @@ If you use SAGAI in your research, please cite:
 
 ## 🪪 License
 
-SAGAI is released under the **Apache 2.0 License**, ensuring compatibility with its core dependencies, including LLaVA, OpenStreetMap, and Google Street View.
+## License and Attribution
+
+SAGAI is released under the [Apache License 2.0](LICENSE). This allows for use, modification, and redistribution in academic, commercial, and open-source contexts.
+
+Please note the following third-party components:
+
+- **LLaVA v1.6**, **CLIP**, and **Transformers** are used under their respective open-source licenses (MIT / Apache 2.0).
+- **OpenStreetMap** data is included under the **ODbL 1.0 license**.
+- **Google Street View** imagery is accessed via API and remains subject to Google’s **Terms of Service**.
+
+If you build upon this codebase, please retain the included [NOTICE](NOTICE) file.
 
 ---
 

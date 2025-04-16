@@ -28,12 +28,12 @@ SAGAI is organized into four Python modules:
 
 ![SAGAI Diagram](https://github.com/perezjoan/SAGAI/blob/images/sagai%20diagram.png)
 
-| Module       | Function                                                                                           | Documentation                         |
-|--------------|----------------------------------------------------------------------------------------------------|----------------------------------------|
-| **Module 1** | Generate points along the OSM street network in a bounding box                                     | [Module 1 Notice](docs/NOTICE_MODULE_1.md) |
-| **Module 2** | Download Google Street View images at each point                                                   | [Module 2 Notice](docs/NOTICE_MODULE_2.md) |
-| **Module 3** | Use a lightweight LLaVA model to analyze the images via prompt                                     | [Module 3 Notice](docs/NOTICE_MODULE_3.md) |
-| **Module 4** | Aggregate and map the scores at both point and street levels                                       | [Module 4 Notice](docs/NOTICE_MODULE_4.md) |
+| Module       | Function                                                                                           | Version   | Documentation                              |
+|--------------|----------------------------------------------------------------------------------------------------|-----------|---------------------------------------------|
+| **Module 1** | Generate points along the OSM street network in a bounding box                                     | v1.0.0    | [Module 1 Notice](docs/NOTICE_MODULE_1.md)  |
+| **Module 2** | Download Google Street View images at each point                                                   | v1.0.0    | [Module 2 Notice](docs/NOTICE_MODULE_2.md)  |
+| **Module 3** | Use llava-v1.6-mistral-7b to analyze the images via prompt                                         | v1.0.0    | [Module 3 Notice](docs/NOTICE_MODULE_3.md)  |
+| **Module 4** | Aggregate and map the scores at both point and street levels                                       | v1.0.0    | [Module 4 Notice](docs/NOTICE_MODULE_4.md)  |
 
 <sub>📄 *Each notice includes detailed descriptions, version info, feature lists, and usage instructions for the corresponding module.*</sub>
 

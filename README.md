@@ -44,3 +44,68 @@ SAGAI runs in **Google Colab** with no installation required. Each module is a s
 1. Clone the repo to your Google Drive:
    ```bash
    git clone https://github.com/your-org/sagai.git
+
+2. Open the corresponding Colab notebooks for each module:
+   - [Module 1: OSM Point Generator](link-to-colab-notebook-1)
+   - [Module 2: Street View Batch Downloader](link-to-colab-notebook-2)
+   - [Module 3: Image-Based Analysis with LLaVA](link-to-colab-notebook-3)
+   - [Module 4: Aggregation & Mapping](link-to-colab-notebook-4)
+
+3. Provide your Google Maps API key (for Module 2 only)
+
+4. Select your task (`T1`, `T2`, or `T3`) or define a new prompt (for Module 3 only)
+
+5. Run the full pipeline and generate thematic maps for your city/neighborhood
+
+---
+
+## 📦 Predefined Scoring Tasks
+
+| Task ID | Type         | Description                                   |
+|---------|--------------|-----------------------------------------------|
+| `T1`    | Classification | Urban vs Rural Scene (0 = rural, 1 = urban)   |
+| `T2`    | Counting      | Number of visible storefronts (0–1-2+)         |
+| `T3`    | Measurement   | Sidewalk width in meters (e.g. 0, 1.5, 2.0)    |
+
+All prompts are defined in `module_3_llava_inference.py` and can be fully customized.
+
+---
+
+## 📊 Example Outputs
+
+Two pilot case studies are included:
+- **Nice, France** – linear mixed-use corridor with dense housing
+- **Vienna, Austria** – low-density peri-urban hills and gardens
+
+SAGAI outputs:
+- `.gpkg` files for analysis
+- Color-coded maps for each scoring task
+
+---
+
+## 📚 Citation
+
+If you use SAGAI in your research, please cite:
+
+> Perez, J. and Fusco, G. (2025). *Streetscape Analysis with Generative Artificial Intelligence (SAGAI): A Modular Workflow for Vision-Language Scoring and Mapping of Street-Level Scenes.* [Preprint link or DOI]
+
+---
+
+## 🪪 License
+
+SAGAI is released under the **Apache 2.0 License**, ensuring compatibility with its core dependencies, including LLaVA, OpenStreetMap, and Google Street View.
+
+---
+
+## ✨ Acknowledgments
+
+Developed as part of the EMC2 project under the **Driving Urban Transition Partnership**, co-funded by ANR (France), FFG (Austria), MUR (Italy), and Vinnova (Sweden).
+
+---
+
+## 📫 Feedback and Contributions
+
+Feel free to open an issue or pull request. Contributions and forks are welcome!
+
+🔗 [GitHub Discussions](https://github.com/perezjoan/SAGAI/discussions) – Share use cases, ideas, and extensions.
+

@@ -8,7 +8,7 @@
 
 This script automates the process of downloading and processing OpenStreetMap (OSM) street data within a user-defined geographic bounding box. It begins by fetching street geometries from OSM and proceeds to clean and filter the data to ensure consistency and remove duplicates. Once the streets are processed, the script generates sample points along each street segment. If a segment is shorter than the specified offset, no point is placed. For segments between the offset and offset plus the spacing dista...
 
-Each street and point is assigned a unique identifier to maintain traceability. Additionally, point coordinates are converted to latitude and longitude using the WGS84 coordinate system for compatibility with global mapping tools. The final results—including both the cleaned streets and the generated points—are saved as separate layers within a GeoPackage file, allowing for easy reuse in GIS workflows. The user can fully control the spacing and offset parameters, making the script adaptable to various ur...
+Each street and point is assigned a unique identifier to maintain traceability. Additionally, point coordinates are converted to latitude and longitude using the WGS84 coordinate system for compatibility with global mapping tools. The final results—including both the cleaned streets and the generated points—are saved as separate layers within a GeoPackage file, allowing for easy reuse in GIS workflows. The user can fully control the spacing and offset parameters, making the script adaptable to various urban analysis or mapping tasks.
 
 ---
 
@@ -69,7 +69,7 @@ Each street and point is assigned a unique identifier to maintain traceability. 
    drive.mount('/content/drive')
    ```
 4. Specify:
-   - **Case study name** (e.g., `"nice"` or `"vienna"`)
+   - **Case study name** (e.g. `"nice"`)
    - **Bounding box** (`xMin`, `xMax`, `yMin`, `yMax`)
    - **Projected CRS** for distance calculations
    - **Spacing** and **offset** for point generation

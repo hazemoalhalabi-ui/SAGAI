@@ -39,23 +39,30 @@ SAGAI is organized into four Python modules:
 
 ## 🚀 Quick Start
 
-SAGAI runs in **Google Colab** with no installation required. Each module is a standalone Python script.
+SAGAI runs in **Google Colab**, with no installation required. Each module is a standalone Python script.
 
-1. Clone the repo to your Google Drive:
+1. **Clone the repo** to your Google Drive:
    ```bash
-   git clone https://github.com/your-org/sagai.git
+   git clone https://github.com/perezjoan/SAGAI.git
+   ```
 
-2. Open the corresponding Colab notebooks for each module:
-   - [Module 1: OSM Point Generator](link-to-colab-notebook-1)
-   - [Module 2: Street View Batch Downloader](link-to-colab-notebook-2)
-   - [Module 3: Image-Based Analysis with LLaVA](link-to-colab-notebook-3)
-   - [Module 4: Aggregation & Mapping](link-to-colab-notebook-4)
+2. **Open the Colab notebooks** for each module:
 
-3. Provide your Google Maps API key (for Module 2 only)
+   - [Module 1: OSM Point Generator](https://colab.research.google.com/drive/your-notebook-id-1)  
+     Input: 📍 bounding box in WGS84 (latitude/longitude)
 
-4. Select your task (`T1`, `T2`, or `T3`) or define a new prompt (for Module 3 only)
+   - [Module 2: Street View Batch Downloader](https://colab.research.google.com/drive/your-notebook-id-2)  
+     Input: 🔑 Google Maps API key & 🌍 geographic data from Module 1
 
-5. Run the full pipeline and generate thematic maps for your city/neighborhood
+   - [Module 3: Image-Based Analysis with LLaVA](https://colab.research.google.com/drive/your-notebook-id-3)  
+     Input:  🧠 select a scoring task (`T1`, `T2`, `T3`) or write your own prompt & 🖼️ images downloaded from Module 2
+
+   - [Module 4: Aggregation & Mapping](https://colab.research.google.com/drive/your-notebook-id-4)
+     Input: 🌍 geographic data from Module 1 and 📃 scores from Module 3
+3. **Run the full pipeline** to generate visual scores and thematic maps for your city or neighborhood.
+
+Each module is independent and can be customized or reused for different spatial tasks.
+
 
 ---
 

@@ -33,7 +33,7 @@ SAGAI is organized into four Python modules:
 | **Module 3** | Use a lightweight LLaVA model to analyze the images via prompt |
 | **Module 4** | Aggregate and map the scores at both point and street levels |
 
-![SAGAI Diagram](https://github.com/perezjoan/SAGAI/raw/main/images/sagai%20diagram.png)
+![SAGAI Diagram](https://github.com/perezjoan/SAGAI/blob/images/sagai%20diagram.png)
 
 ---
 

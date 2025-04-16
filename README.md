@@ -83,10 +83,6 @@ All prompts are defined in `module_3_llava_inference.py` and can be fully custom
 A pilot case study is included in the modules:
 - **Nice, France** – A linear urban corridor following the Paillon Valley, characterized by mixed land uses and dense social housing developments in the northern sector.
 
-SAGAI outputs:
-- `.gpkg` files for analysis
-- Color-coded maps for each scoring task
-
 ---
 
 ## 📚 Citation

@@ -1,0 +1,9 @@
+SAGAI version: 1.0.0  
+Release date: 2025-04-18  
+Author: Joan Perez
+Description: Initial public release of SAGAI – a modular workflow for vision-language scoring and mapping of street-level scenes using open geospatial data and generative AI.  
+Modules:  
+- Module 1: OSM Point Generator – v1.0.0  
+- Module 2: Street View Batch Downloader – v1.0.0  
+- Module 3: Image-Based Inference with LLaVA – v1.0.0  
+- Module 4: Aggregation & Mapping – v1.0.0  

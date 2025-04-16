@@ -73,9 +73,8 @@ All prompts are defined in `module_3_llava_inference.py` and can be fully custom
 
 ## 📊 Example Outputs
 
-Two pilot case studies are included:
-- **Nice, France** – linear mixed-use corridor with dense housing
-- **Vienna, Austria** – low-density peri-urban hills and gardens
+A pilot case study is included in the modules:
+- **Nice, France** – A linear urban corridor following the Paillon Valley, characterized by mixed land uses and dense social housing developments in the northern sector.
 
 SAGAI outputs:
 - `.gpkg` files for analysis
@@ -107,7 +106,7 @@ If you build upon this codebase, please retain the included [NOTICE](NOTICE) fil
 
 ## ✨ Acknowledgments
 
-This project was supported in part by the **EMC2 project** under the **Driving Urban Transition Partnership**, co-funded by **ANR (France)**, **FFG (Austria)**, **MUR (Italy)**, and **Vinnova (Sweden)**. SAGAI is designed as an open and extensible tool to support future research initiatives and collaborations in urban analytics and AI-based spatial analysis.
+This project was supported in part by the **EMC2 project** [EMC2](https://emc2-dut.org/)] under the **Driving Urban Transition Partnership**, co-funded by **ANR (France)**, **FFG (Austria)**, **MUR (Italy)**, and **Vinnova (Sweden)**. SAGAI is designed as an open and extensible tool to support future research initiatives and collaborations in urban analytics and AI-based spatial analysis.
 
 ---
 

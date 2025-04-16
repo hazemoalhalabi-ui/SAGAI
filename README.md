@@ -25,6 +25,7 @@ It can:
 ## 🧭 Workflow Overview
 
 SAGAI is organized into four Python modules:
+![SAGAI Diagram](https://github.com/perezjoan/SAGAI/blob/images/sagai%20diagram.png)
 
 | Module | Function |
 |--------|----------|
@@ -32,8 +33,6 @@ SAGAI is organized into four Python modules:
 | **Module 2** | Download Google Street View images at each point |
 | **Module 3** | Use a lightweight LLaVA model to analyze the images via prompt |
 | **Module 4** | Aggregate and map the scores at both point and street levels |
-
-![SAGAI Diagram](https://github.com/perezjoan/SAGAI/blob/images/sagai%20diagram.png)
 
 ---
 

@@ -25,6 +25,7 @@ It can:
 ## 🧭 Workflow Overview
 
 SAGAI is organized into four Python modules:
+
 ![SAGAI Diagram](https://github.com/perezjoan/SAGAI/blob/images/sagai%20diagram.png)
 
 | Module | Function |

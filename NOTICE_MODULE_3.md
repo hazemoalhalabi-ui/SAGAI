@@ -56,5 +56,3 @@ The script loads a vision-language model from Hugging Face using `snapshot_downl
 The model is loaded with 4-bit quantization via `BitsAndBytesConfig`, keeping memory usage under 6 GB on most GPUs. You can switch to 8-bit loading by replacing `load_in_4bit=True` with `load_in_8bit=True`, and removing the `bnb_4bit_*` arguments.
 
 If your images were generated using the companion script STREET VIEW BATCH DOWNLOADER, the script will automatically ignore any images with `_NA` in the filename—these indicate locations where Google Street View returned no visual data.
-
-This scoring pipeline is designed as part of a larger visual analysis framework. It generates compact structured outputs that can be used in **Script 4: Geospatial Scoring Aggregation and Mapping**, allowing fully automated visual-to-map workflows.

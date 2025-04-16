@@ -110,7 +110,7 @@ If you build upon this codebase, please retain the included [NOTICE](NOTICE) fil
 
 ## ✨ Acknowledgments
 
-This project was supported in part by the [EMC2 project](https://emc2-dut.org/) under the **Driving Urban Transition Partnership**, co-funded by **ANR (France)**, **FFG (Austria)**, **MUR (Italy)**, and **Vinnova (Sweden)**. SAGAI is designed as an open and extensible tool to support future research initiatives and collaborations in urban analytics and AI-based spatial analysis.
+This project is supported by the [EMC2 project](https://emc2-dut.org/) under the **Driving Urban Transition Partnership**, co-funded by **ANR (France)**, **FFG (Austria)**, **MUR (Italy)**, and **Vinnova (Sweden)**. SAGAI is designed as an open and extensible tool to support future research initiatives and collaborations in urban analytics and AI-based spatial analysis.
 
 ---
 

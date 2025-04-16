@@ -64,5 +64,5 @@ For security:
 
 ### Checking usage & quota:
 - Go to Google Cloud Console → APIs & Services → Dashboard → Street View Static API.
-- Click “Quotas” to view usage (default: 25,000 requests/day).
+- Click “Quotas” to view usage (default is 25,000 requests/day).
 - Enable alerts under Monitoring → Alerting.

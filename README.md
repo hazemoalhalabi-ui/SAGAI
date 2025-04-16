@@ -1,25 +1,24 @@
 # Streetscape Analysis with Generative AI (SAGAI)
 
-**SAGAI** is an open-source, modular workflow that uses generative vision-language models to automatically score and map street-level urban environments. It enables scalable, prompt-driven interpretation of Google Street View imagery using only a bounding box as input—requiring no pre-labeled data, specialized hardware, or deep learning expertise.
+**SAGAI** is an open-source, modular workflow that uses generative vision-language models to automatically score and map street-level urban environments. It enables scalable, prompt-driven interpretation of Google Street View imagery using only a bounding box as input—requiring no pre-labeled data, specialized hardware, or deep learning expertise. With just a bounding box as input, SAGAI automates the end-to-end process—from street sampling and imagery retrieval to semantic scoring and thematic cartography. The system is fully compatible with **Google Colab**, enabling accessible and browser-based deployment.
 
-💡 **Zero-shot. Lightweight. Fully deployable.**
+💡 **Zero-shot. Lightweight. Prompt-based. Fully deployable.**
 
 ---
 
 ## 🌍 What does SAGAI do?
 
-SAGAI links together:
-- **OpenStreetMap** for automatic street geometry extraction  
-- **Google Street View** for street-level imagery  
-- **LLaVA (Mistral 7B)** in quantized format for visual scoring via customizable prompts  
-- **GeoPandas / Matplotlib** for spatial aggregation and thematic mapping  
+SAGAI combines several powerful open-access tools into a unified geospatial AI pipeline:
+- ✅ **OpenStreetMap (OSM)** — for automatic extraction of street networks within a defined bounding box  
+- 📸 **Google Street View API** — for downloading real-world street-level images in multiple directions  
+- 🧠 **LLaVA (v1.6 Mistral-7B, quantized)** — for performing **zero-shot** scoring using customizable natural language prompts  
+- 🗺️ **GeoPandas + Matplotlib** — for geospatial joins, aggregation, and generation of point- and street-level thematic maps
 
-It can:
-- Classify urban vs rural street scenes
-- Count visible storefronts
-- Estimate sidewalk width
-- Be easily adapted to **any visual scoring task** by changing the natural language prompts
-
+It supports a growing range of tasks, including:
+- **Urban vs Rural Scene Classification**  
+- **Storefront Presence Detection**  
+- **Sidewalk Width Estimation**  
+- 🧩 And any other **prompt-driven vision task** (just modify the template)
 ---
 
 ## 🧭 Workflow Overview

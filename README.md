@@ -102,8 +102,10 @@ This includes:
 
 Quantitatively, SAGAI v1.0 achieved an overall accuracy of 91.67% for urban–rural classification (T1), 64.17% for storefront detection (T2), and 54.05% for sidewalk width estimation (T3) across the two case studies. For more information regarding validation, please refer to our [publications](#-citation)
 
-![Pipeline example aplied to nice](https://github.com/perezjoan/SAGAI/blob/images/PIPELINE%20EXAMPLE%20NICE.png)
-Pipeline example aplied to nice
+Pipeline example applied to Nice: 
+
+![Pipeline example applied to nice](https://github.com/perezjoan/SAGAI/blob/images/PIPELINE%20EXAMPLE%20NICE.png)
+
 ---
 
 ## 📚 Citation

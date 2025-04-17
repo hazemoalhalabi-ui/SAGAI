@@ -1,6 +1,6 @@
 # STREET VIEW BATCH DOWNLOADER
 
-**Version:** 1.0.0  
+**Version:** 1.0  
 **Project GitHub:** [https://github.com/perezjoan/SAGAI](https://github.com/perezjoan/SAGAI)
 
 ## 1. Description

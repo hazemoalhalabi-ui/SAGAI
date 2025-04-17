@@ -92,7 +92,7 @@ Due to Google’s Terms of Service, raw Street View images retrieved in Module 2
 
 However, all other deliverables are available in the following archive:
 
-🔗 [Download Full Output Archive (excluding Street View imagery)](https://github.com/perezjoan/SAGAI/releases/download/v1.0.0/SAGAI_outputs.zip)
+🔗 [Download Full Output Archive (excluding Street View imagery)](https://github.com/perezjoan/SAGAI/blob/main/output%20nice%20vienna%20SAGAI%20v1-0.zip)
 
 This includes:
 - GeoPackages with points, segments, and spatialized scores (Modules 1 and 4)
@@ -100,7 +100,7 @@ This includes:
 - Thematic maps by point and segment
 - Validation patchworks comparing LLaVA predictions with human annotations
 
-Quantitatively, SAGAI v1.0 achieved an overall accuracy of 91.67% for urban–rural classification (T1), 64.17% for storefront detection (T2), and 54.05% for sidewalk width estimation (T3) across the two case studies.
+Quantitatively, SAGAI v1.0 achieved an overall accuracy of 91.67% for urban–rural classification (T1), 64.17% for storefront detection (T2), and 54.05% for sidewalk width estimation (T3) across the two case studies. For more information regarding validation, please refer to our [publications](#-citation)
 
 ---
 

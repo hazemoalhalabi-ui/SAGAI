@@ -57,7 +57,7 @@ SAGAI runs in **Google Colab**, with no installation required. Each module is a 
    - [Module 2: Street View Batch Downloader](https://github.com/perezjoan/SAGAI/blob/main/module_2_streetview_batch_downloader.ipynb)  
      Input: 🔑 Google Maps API key & 🌍 geographic data from Module 1
 
-   - [Module 3: Image-Based Analysis with LLaVA](https://github.com/perezjoan/SAGAI/blob/main/module_3_llava_inference_scoring.ipynb)  
+   - [Module 3: Scoring/inference with LLaVA](https://github.com/perezjoan/SAGAI/blob/main/module_3_llava_inference_scoring.ipynb)  
      Input:  🧠 select a scoring task (`T1`, `T2`, `T3`) or write your own prompt & 🖼️ images downloaded from Module 2
 
    - [Module 4: Aggregation & Mapping](https://colab.research.google.com/drive/your-notebook-id-4)  

@@ -1,5 +1,5 @@
 
-# IMAGE-BASED SCORING FRAMEWORK WITH LLaVA
+# SCENE ASSESSMENT WITH LLaVA
 
 **Version**: 1.0  
 **Project Github**: [https://github.com/perezjoan/SAGAI](https://github.com/perezjoan/SAGAI)

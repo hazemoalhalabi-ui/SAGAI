@@ -34,12 +34,11 @@ This script automates the batch download of Google Street View images based on a
 - Organizes outputs with consistent filenames for easy indexing and reuse in ML or GIS workflows.
 
 ## 3. How to Use
-1. Open a Google Colab notebook and copy-paste the code.  
-2. Mount your Google Drive using `drive.mount('/content/drive')`.  
-3. Set the required input parameters: your Google API key and the case study name (e.g., `"nice"`).  
-4. The script builds paths automatically to read points from `SAGAI/StreetSamples/<case>_osm.gpkg` and saves images to `SAGAI/StreetViewBatchDownload_<case>`.
-5. Optionally, adjust pitch and FOV to control how images are captured.
-6. Run the script — it will download images, detect missing ones, and organize all files in your Drive.
+1. Mount your Google Drive using `drive.mount('/content/drive')`.  
+2. Set the required input parameters: your Google API key and the case study name (e.g., `"nice"`).  
+3. The script builds paths automatically to read points from `SAGAI/StreetSamples/<case>_osm.gpkg` and saves images to `SAGAI/StreetViewBatchDownload_<case>`.
+4. Optionally, adjust pitch and FOV to control how images are captured.
+5. Run the script — it will download images, detect missing ones, and organize all files in your Drive.
 
 ## 4. Additional Information
 You must have an active **Google API key** with access to the Street View Static API.

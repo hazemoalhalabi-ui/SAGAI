@@ -71,8 +71,7 @@ SAGAI runs in **Google Colab**, with no installation required. Each module is a 
 3. **Run the full pipeline** to generate visual scores and thematic maps for your city or neighborhood.
 
 Each module is independent and can be customized or reused for different spatial tasks.
-> ⚠️ **In case of issues or questions**, refer to the detailed [module notices](#-workflow-overview) for each component. These include setup guidance, version info, and usage tips. A full list of Python packages and versions is provided for Module 3 in [requirements_sagai.txt](https://github.com/perezjoan/SAGAI/blob/main/requirements_sagai_module_3_v1-0.txt). Use it to replicate the working environment if compatibility issues arise in the future.
-
+> ⚠️ **In case of issues or questions**, refer to the detailed [module notices](#-workflow-overview) for each component. These include setup guidance, version info, and usage tips. A full list of Python packages and versions is provided for Module 3 in [requirements_sagai.txt](https://github.com/perezjoan/SAGAI/blob/main/requirements_sagai_module_3_v1-0.txt)—use it to replicate the working environment or troubleshoot compatibility issues in the future.
 ---
 
 ## 📦 Predefined Scoring Tasks

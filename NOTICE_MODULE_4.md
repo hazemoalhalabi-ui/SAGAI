@@ -60,13 +60,11 @@ The script will process all valid scores, perform spatial joins, calculate the c
 
 ## 4. Additional Information
 
-This script is designed to work with the output of the companion **IMAGE-BASED SCORING FRAMEWORK WITH LLaVA**, which produces a .csv file containing scores for every image analyzed, and with **OSM POINT GENERATOR**, which downloads, cleans, and generates spatial points along OSM street networks.
-
 Each score must be a numeric value or `"NA"` (case-insensitive).  
-The script extracts the base point ID from each image filename (e.g., `point_12_90.jpg` → `point_12`), then computes the sum and the average of all valid (non-NA) scores for that point.
+The script extracts the base point ID from each image filename (e.g., `point_12_90.jpg` → `point_12`), then computes the statistics of all valid (non-NA) scores for that point.
 
-- The sum and the average are assigned to the corresponding point geometry.
-- At the street level, the script calculates the sum and the average of all point scores associated with each `street_id`.
+- The statitics are assigned to the corresponding point geometry.
+- At the street level, the script calculates the statistics of all point scores associated with each `street_id`.
 
 If a point has only one valid score, that score is used directly; if it has no valid scores, it is excluded from the computation entirely.
 

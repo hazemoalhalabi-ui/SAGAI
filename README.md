@@ -128,9 +128,10 @@ SAGAI is released under the [Apache License 2.0](LICENSE). This allows for use, 
 
 Please note the following third-party components:
 
-- **LLaVA v1.6**, **CLIP**, and **Transformers** are used under their respective open-source licenses (MIT / Apache 2.0).
-- **OpenStreetMap** data is included under the **ODbL 1.0 license**.
-- **Google Street View** imagery is accessed via API and remains subject to Google’s **Terms of Service**.
+- [LLaVA v1.6](https://github.com/haotian-liu/LLaVA), used for image-language inference (MIT License)
+- [CLIP](https://github.com/openai/CLIP) and [Transformers](https://github.com/huggingface/transformers) for model loading and vision encoding (Apache 2.0 / MIT)
+- [OpenStreetMap](https://www.openstreetmap.org/copyright) data (ODbL 1.0 License)
+- Google Street View imagery is accessed via API and remains subject to Google’s [Terms of Service](https://maps.google.com/help/terms_maps/).
 
 ---
 

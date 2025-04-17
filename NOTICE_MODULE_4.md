@@ -6,7 +6,7 @@
 
 ## 1. Description
 
-For each sampling location, the script groups the four directional image scores (e.g., from 0°, 90°, 180°, and 270°) and computes four statistical metrics: mean, sum, median, and variance. You only need to define a case study name (e.g., nice, vienna) and task version (T1, T2, or T3). All paths will be generated automatically. All four summary statistics are retained in the output GeoPackage for both points and streets. The user also has to choose between two aggregation modes for the automated maps: 'average' or 'sum'.
+For each sampling location, the script groups the four directional image scores (e.g., from 0°, 90°, 180°, and 270°) and computes four statistical metrics: mean, sum, median, and variance. You only need to define a case study name (e.g., nice, vienna) and recall the selected task of Module 3 (T1, T2, or T3). All paths will be generated automatically. All four summary statistics are retained in the output GeoPackage for both points and streets. The user also has to choose between two aggregation modes for the automated maps: 'average' or 'sum'.
 
 ---
 

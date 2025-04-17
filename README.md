@@ -139,6 +139,12 @@ Please note the following third-party components:
 
 This research is supported by the [EMC2 project](https://emc2-dut.org/) co-funded by **ANR (France)**, **FFG (Austria)**, **MUR (Italy)**, and **Vinnova (Sweden)** under the **Driving Urban Transition Partnership**, which has been co-funded by the European Commission. SAGAI is designed as an open and extensible tool to support future research initiatives and collaborations in urban analytics and AI-based spatial analysis.
 
+## 🏢 Developer
+
+SAGAI was developed by [Joan Perez](https://urbangeoanalytics.com/), founder of **Urban Geo Analytics** — an independent research and consulting practice focused on geospatial modeling, AI for cities, and open-source urban analytics.
+
+For professional inquiries visit  
+🌐 [urbangeoanalytics.com](https://urbangeoanalytics.com/)
 ---
 
 ## 📫 Feedback and Contributions

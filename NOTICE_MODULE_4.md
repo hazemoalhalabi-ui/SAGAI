@@ -1,5 +1,5 @@
 # GEOSPATIAL SCORING AGGREGATION AND MAPPING
-**Version:** 1.0.0  
+**Version:** 1.0 
 **Project Github:** https://github.com/perezjoan/SAGAI
 
 ---

@@ -54,7 +54,7 @@ SAGAI runs in **Google Colab**, with no installation required. Each module is a 
    - [Module 1: OSM Point Generator](https://github.com/perezjoan/SAGAI/blob/main/module_1_osm_point_generator.ipynb)   
      Input: 📍 bounding box in WGS84 (latitude/longitude)
 
-   - [Module 2: Street View Batch Downloader](https://colab.research.google.com/drive/your-notebook-id-2)  
+   - [Module 2: Street View Batch Downloader](https://github.com/perezjoan/SAGAI/blob/main/module_2_streetview_batch_downloader.ipynb)  
      Input: 🔑 Google Maps API key & 🌍 geographic data from Module 1
 
    - [Module 3: Image-Based Analysis with LLaVA](https://colab.research.google.com/drive/your-notebook-id-3)  

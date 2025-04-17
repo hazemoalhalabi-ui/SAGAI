@@ -13,7 +13,7 @@ This script enables batch scoring of street-level images using the LLaVA (Large 
 ### Google Drive Integration
 - Automatically mounts Google Drive to access your image folder and save outputs.
 - Works with `.jpg`, `.jpeg`, and `.png` files.
-- Skips any image ending in `_NA.jpg` (e.g., from STREET VIEW BATCH DOWNLOADER).
+- Skips any image ending in `_NA.jpg`
 
 ### LLaVA Model Setup
 - Uses Hugging Face's `snapshot_download` to load pretrained weights (default: `llava-v1.6-mistral-7b`).
@@ -25,7 +25,7 @@ This script enables batch scoring of street-level images using the LLaVA (Large 
 - You define the scoring rules in natural language. Prompts are editable and fully customizable for different use cases.
 - Output is written as a 2-column CSV: image name and score.
 
-### Pre-coded AI Scoring Behaviors
+### Pre-coded AI Scoring Task
 - **Categorization (T1)**: Classifies each image as rural (0) or urban (1).
 - **Counting (T2)**: Detects presence of storefronts — 0 (none), 1 (one), or 2 (multiple).
 - **Measuring (T3)**: Estimates visible sidewalk width in meters, rounded to the nearest 0.5 (e.g., 2.0, 2.5).

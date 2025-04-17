@@ -1,5 +1,5 @@
 # OSM POINT GENERATOR  
-**Version**: 1.0
+**Version**: 1.0  
 **Project GitHub**: [https://github.com/perezjoan/SAGAI](https://github.com/perezjoan/SAGAI)
 
 ---

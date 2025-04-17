@@ -77,7 +77,7 @@ Each module is independent and can be customized or reused for different spatial
 | `T2`    | Counting      | Number of visible storefronts (0–1-2+)         |
 | `T3`    | Measurement   | Sidewalk width in meters (e.g. 0, 1.5, 2.0)    |
 
-All prompts are defined in `module_3_llava_inference.py` and can be fully customized.
+All prompts are defined in `module_3_llava_inference_scoring.ipynb` and can be fully customized.
 
 ---
 

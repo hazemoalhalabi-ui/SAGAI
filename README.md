@@ -132,8 +132,6 @@ Please note the following third-party components:
 - **OpenStreetMap** data is included under the **ODbL 1.0 license**.
 - **Google Street View** imagery is accessed via API and remains subject to Google’s **Terms of Service**.
 
-If you build upon this codebase, please retain the included [NOTICE](NOTICE) file.
-
 ---
 
 ## ✨ Acknowledgments

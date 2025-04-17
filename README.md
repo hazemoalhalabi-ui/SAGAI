@@ -141,7 +141,7 @@ This research is supported by the [EMC2 project](https://emc2-dut.org/) co-funde
 
 ## 🏢 Developer
 
-SAGAI was developed by [Joan Perez](https://urbangeoanalytics.com/), founder of **Urban Geo Analytics** — an independent research and consulting practice focused on geospatial modeling, AI for cities, and open-source urban analytics. 🌐 [urbangeoanalytics.com](https://urbangeoanalytics.com/)
+SAGAI is developed by [Joan Perez](https://orcid.org/0000-0003-3003-0895), founder of **Urban Geo Analytics** — an independent research and consulting practice focused on geospatial modeling, AI for cities, and open-source urban analytics. 🌐 [urbangeoanalytics.com](https://urbangeoanalytics.com/)
 
 ---
 

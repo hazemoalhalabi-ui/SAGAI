@@ -25,7 +25,7 @@ It supports a growing range of tasks, including:
 
 ## 🧭 Workflow Overview
 
-SAGAI v1.0.0 is organized into four Python modules:
+SAGAI v1.0 is organized into four Python modules:
 
 ![SAGAI Diagram](https://github.com/perezjoan/SAGAI/blob/images/sagai%20diagram.png)
 

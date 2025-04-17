@@ -1,6 +1,10 @@
 # Streetscape Analysis with Generative AI (SAGAI)
 
-SAGAI is an open-source, modular workflow that leverages **generative vision-language models**, specifically a lightweight version of **LLaVA (Large Language and Vision Assistant)**, to automatically score and map street-level urban environments. It enables scalable, prompt-driven interpretation of **Google Street View** imagery using only a geographic bounding box—requiring no pre-labeled data, specialized hardware, or deep learning expertise.
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
+[![Version](https://img.shields.io/badge/Version-v1.0.0-brightgreen)](https://github.com/perezjoan/SAGAI/releases)
+[![Colab Compatible](https://img.shields.io/badge/Google%20Colab-Compatible-yellow.svg)](https://colab.research.google.com/)
+
+**SAGAI** is an open-source, modular workflow for scoring and mapping street-level urban environments using **generative vision-language models**—specifically a lightweight version of **LLaVA (Large Language and Vision Assistant)**. It enables scalable, prompt-driven interpretation of **Google Street View** imagery using only a geographic bounding box—requiring no pre-labeled data, specialized hardware, or deep learning expertise.
 
 SAGAI automates the full pipeline: from street sampling via OpenStreetMap, to imagery retrieval, semantic scoring with LLaVA, and geospatial aggregation into thematic maps. Designed for **Google Colab**, it runs entirely in-browser for fast and lightweight deployment.
 
@@ -16,11 +20,13 @@ SAGAI combines several powerful open-access tools into a unified geospatial AI p
 - 🧠 **LLaVA (v1.6 Mistral-7B, quantized)** — for performing **zero-shot** scoring using customizable natural language prompts  
 - 🗺️ **GeoPandas + Matplotlib** — for geospatial joins, aggregation, and generation of point- and street-level thematic maps
 
+It requires **no pretraining, no fine-tuning, and no human annotation**—making it suitable for rapid deployment in new cities or study areas.
+
 It supports a growing range of tasks, including:
 - **Urban vs Rural Scene Classification**  
 - **Storefront Presence Detection**  
 - **Sidewalk Width Estimation**  
-- 🧩 And any other **prompt-driven vision task** (just modify the template)
+- 🧩 Plus any other **prompt-driven visual analysis** task—simply adapt the prompt template.
 ---
 
 ## 🧭 Workflow Overview
@@ -33,7 +39,7 @@ SAGAI v1.0 is organized into four Python modules:
 |--------------|----------------------------------------------------------------------------------------------------|-----------|---------------------------------------------|
 | **Module 1** | Generate points along the OSM street network in a bounding box                                     | v1.0    | [Module 1 Notice](https://github.com/perezjoan/SAGAI/blob/main/NOTICE_MODULE_1.md)  |
 | **Module 2** | Download Google Street View images at each point                                                   | v1.0    | [Module 2 Notice](https://github.com/perezjoan/SAGAI/blob/main/NOTICE_MODULE_2.md)  |
-| **Module 3** | Use llava-v1.6-mistral-7b to score the images via prompt                                         | v1.0    | [Module 3 Notice](https://github.com/perezjoan/SAGAI/blob/main/NOTICE_MODULE_3.md)  |
+| **Module 3** | Use LLaVA-v1.6-Mistral-7B to score the images via prompt                                         | v1.0    | [Module 3 Notice](https://github.com/perezjoan/SAGAI/blob/main/NOTICE_MODULE_3.md)  |
 | **Module 4** | Aggregate and map the scores at both point and street levels                                       | v1.0    | [Module 4 Notice](https://github.com/perezjoan/SAGAI/blob/main/NOTICE_MODULE_4.md)  |
 
 <sub>📄 *Each notice includes detailed descriptions, version info, feature lists, and usage instructions for the corresponding module.*</sub>

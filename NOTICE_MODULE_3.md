@@ -1,7 +1,7 @@
 
 # IMAGE-BASED SCORING FRAMEWORK WITH LLaVA
 
-**Version**: 1.0
+**Version**: 1.0  
 **Project Github**: [https://github.com/perezjoan/SAGAI](https://github.com/perezjoan/SAGAI)
 
 ## 1. Description

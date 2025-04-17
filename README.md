@@ -1,7 +1,7 @@
 # Streetscape Analysis with Generative AI (SAGAI)
 
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/Version-v1.0.0-brightgreen)](https://github.com/perezjoan/SAGAI/releases)
+[![Version](https://img.shields.io/badge/Version-v1.0-brightgreen)](https://github.com/perezjoan/SAGAI/releases)
 [![Colab Compatible](https://img.shields.io/badge/Google%20Colab-Compatible-yellow.svg)](https://colab.research.google.com/)
 
 **SAGAI** is an open-source, modular workflow for scoring and mapping street-level urban environments using **generative vision-language models**—specifically a lightweight version of **LLaVA (Large Language and Vision Assistant)**. It enables scalable, prompt-driven interpretation of **Google Street View** imagery using only a geographic bounding box—requiring no pre-labeled data, specialized hardware, or deep learning expertise.

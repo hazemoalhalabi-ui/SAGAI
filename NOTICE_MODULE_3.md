@@ -36,6 +36,9 @@ This script enables batch scoring of street-level images using the LLaVA (Large 
 - Images already present in the CSV will be skipped.
 - If the output CSV does not exist or is empty, the script starts fresh.
 
+### Export to CSV
+- The scores are automatically saved in a .csv file with the point identifiers
+
 ### Colab-Ready and Modular
 - No local setup needed—the entire pipeline runs from Google Colab.
 - Outputs can feed directly into geospatial or statistical analysis scripts.

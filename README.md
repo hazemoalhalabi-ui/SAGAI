@@ -66,7 +66,7 @@ SAGAI runs in **Google Colab**, with no installation required. Each module is a 
    - [Module 3: Scoring/inference with LLaVA](https://github.com/perezjoan/SAGAI/blob/main/module_3_llava_inference_scoring.ipynb)  
      Input:  🧠 select a scoring task (`T1`, `T2`, `T3`) or write your own prompt & 🖼️ images downloaded from Module 2
 
-   - [Module 4: Aggregation & Mapping](https://colab.research.google.com/drive/your-notebook-id-4)  
+   - [Module 4: Aggregation & Mapping](https://github.com/perezjoan/SAGAI/blob/main/module_4_aggregation_mapping.ipynb)  
      Input: 🌍 geographic data from Module 1 and 📃 scores from Module 3
 3. **Run the full pipeline** to generate visual scores and thematic maps for your city or neighborhood.
 

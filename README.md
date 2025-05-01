@@ -117,7 +117,7 @@ Pipeline example applied to Nice:
 
 If you use SAGAI in your research, please cite:
 
-> Perez, J and Fusco, G. (2025) *Streetscape Analysis with Generative AI (SAGAI): Vision-Language Assessment and Mapping of Urban Scenes*. Preprint, Available at SSRN: https://ssrn.com/abstract=5226191
+> Perez, J and Fusco, G. (2025) *Streetscape Analysis with Generative AI (SAGAI): Vision-Language Assessment and Mapping of Urban Scenes*. Preprint, arXiv:2504.16538, 25 p. Available at: https://arxiv.org/abs/2504.16538
 
 ---
 
